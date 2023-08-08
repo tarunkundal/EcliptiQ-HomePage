@@ -14,7 +14,7 @@ const Comp1 = () => {
 			bgGradient="linear-gradient(45deg,rgb(228,248,242),rgb(240,251,248),rgb(255,250,230), rgb(248,247,254),rgb(237,250,254))"
 		>
 			<Flex
-				mt={{ base: '15%', md: '8%' }}
+				mt={{ base: '20%', md: '8%' }}
 				px={{ base: 4, md: 18 }}
 				justifyContent="space-around"
 				alignItems="center"

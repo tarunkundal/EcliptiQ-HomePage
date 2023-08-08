@@ -19,7 +19,7 @@ const Features = () => {
 			<Stack
 				textAlign="center"
 				px={{ base: '8%', md: '10%' }}
-				pt={{ base: '25%', md: '15%' }}
+				pt={{ base: '30%', md: '15%' }}
 			>
 				<Heading
 					fontSize={{ base: '5xl', md: '7xl' }}
