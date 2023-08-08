@@ -83,7 +83,7 @@ const Features = () => {
 					<ChakraImage
 						w={{ base: '200px', md: '600px' }}
 						h={{ md: '500px' }}
-						ml={{ base: '-50%', md: '-50%' }}
+						ml={{ base: '-60%', md: '-50%' }}
 						alt=""
 						src="/featues3-img.webp"
 					/>
