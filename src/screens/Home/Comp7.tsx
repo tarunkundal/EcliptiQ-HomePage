@@ -4,7 +4,7 @@ import React from 'react';
 const Comp7 = () => {
 	return (
 		<Stack
-			w={{ sm: '90%', md: '70%' }}
+			w={{ base: '90%', md: '70%' }}
 			mx="auto"
 			textAlign="center"
 			my={4}
@@ -13,7 +13,7 @@ const Comp7 = () => {
 			p={10}
 			borderRadius="10px 100px"
 		>
-			<Heading fontSize={{ sm: '4xl', md: '6xl' }} color="yellow_neon">
+			<Heading fontSize={{ base: '4xl', md: '6xl' }} color="yellow_neon">
 				“EcliptiQ makes it easy to go as simple or as complex as you want”
 			</Heading>
 			<Heading fontSize="25px">- The Chauhan</Heading>

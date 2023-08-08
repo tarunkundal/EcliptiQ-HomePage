@@ -124,6 +124,7 @@ const Header = () => {
 								textDecoration: 'none',
 								bg: 'blue1',
 							}}
+							boxSizing="content-box"
 							cursor="pointer"
 							onClick={() => router.push('/features')}
 						>

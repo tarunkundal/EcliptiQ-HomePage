@@ -26,7 +26,7 @@ const Comp1 = () => {
 						</video>
 					</Box>
 				</Stack>
-				<Stack gap={{ base: 5, md: 8 }} w={{ sm: '90%', md: '40%' }}>
+				<Stack gap={{ base: 5, md: 8 }} w={{ base: '90%', md: '40%' }}>
 					<Heading fontSize={{ base: '5xl', md: '6xl' }}>
 						One app to replace them all.
 					</Heading>

@@ -17,10 +17,10 @@ const Comp3 = () => {
 		>
 			<Flex
 				alignItems="center"
-				display={{ sm: 'block', md: 'flex' }}
+				display={{ base: 'block', md: 'flex' }}
 				justifyContent="space-between"
 			>
-				<Stack w={{ sm: '100%', md: '35%' }} gap={{ sm: 4, md: 6 }}>
+				<Stack w={{ base: '100%', md: '35%' }} gap={{ base: 4, md: 6 }}>
 					<Text
 						fontWeight="extrabold"
 						textDecoration="underline"
@@ -29,7 +29,7 @@ const Comp3 = () => {
 					>
 						Project & Tasks
 					</Text>
-					<Heading fontSize={{ sm: '4xl', md: '6xl' }}>
+					<Heading fontSize={{ base: '4xl', md: '6xl' }}>
 						Simplify work and get more done.
 					</Heading>
 					<Text>
@@ -46,7 +46,7 @@ const Comp3 = () => {
 					</Button>
 				</Stack>
 				<Box
-					display={{ sm: 'none', md: 'block' }}
+					display={{ base: 'none', md: 'block' }}
 					borderRadius="3xl"
 					overflow="hidden"
 				>

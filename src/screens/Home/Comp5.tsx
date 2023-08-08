@@ -15,7 +15,7 @@ const Comp5 = () => {
 			bg="green1"
 		>
 			<Flex
-				display={{ sm: 'stack', md: 'flex' }}
+				display={{ base: 'stack', md: 'flex' }}
 				alignItems="center"
 				justifyContent="space-between"
 			>
@@ -26,7 +26,7 @@ const Comp5 = () => {
 					textDecorationThickness="5px"
 					fontSize="20px"
 					color="green.400"
-					display={{ sm: 'block', md: 'none' }}
+					display={{ base: 'block', md: 'none' }}
 					mb={8}
 					textAlign="center"
 				>
@@ -39,7 +39,7 @@ const Comp5 = () => {
 					</video>
 				</Box>
 
-				<Stack w={{ md: '35%' }} gap={6} mt={{ sm: 6, md: 0 }}>
+				<Stack w={{ md: '35%' }} gap={6} mt={{ base: 6, md: 0 }}>
 					<Text
 						fontWeight="extrabold"
 						textDecoration="underline"
@@ -47,11 +47,11 @@ const Comp5 = () => {
 						textDecorationThickness="5px"
 						fontSize="20px"
 						color="green.400"
-						display={{ md: 'block', sm: 'none' }}
+						display={{ md: 'block', base: 'none' }}
 					>
 						Focus on what`s important
 					</Text>
-					<Heading fontSize={{ sm: '4xl', md: '6xl' }}>
+					<Heading fontSize={{ base: '4xl', md: '6xl' }}>
 						Reach that mental clarity you`ve been longing for.
 					</Heading>
 					<Text>

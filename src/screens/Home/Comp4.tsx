@@ -18,7 +18,7 @@ const Comp4 = () => {
 				w={{ md: '70%' }}
 				mx="auto"
 				textAlign="center"
-				gap={{ sm: 4, md: 6 }}
+				gap={{ base: 4, md: 6 }}
 			>
 				<Text
 					fontWeight="bold"
@@ -30,7 +30,7 @@ const Comp4 = () => {
 				>
 					Clear your mind
 				</Text>
-				<Heading fontSize={{ sm: '4xl', md: '6xl' }}>
+				<Heading fontSize={{ base: '4xl', md: '6xl' }}>
 					The fastest way to get tasks out of your head.
 				</Heading>
 

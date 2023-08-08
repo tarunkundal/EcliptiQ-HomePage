@@ -28,10 +28,10 @@ const Comp8 = () => {
 				<Text fontWeight="bold" color="blue">
 					#1 SUPPORT IN SOFTWARE
 				</Text>
-				<Heading fontSize={{ sm: '4xl', md: '6xl' }}>
+				<Heading fontSize={{ base: '4xl', md: '6xl' }}>
 					24/7 real-time support.
 				</Heading>
-				<Stack display={{ md: 'none', sm: 'block' }}>
+				<Stack display={{ md: 'none', base: 'block' }}>
 					<Image
 						src="/customer-support.avif"
 						width={400}
@@ -54,7 +54,7 @@ const Comp8 = () => {
 					</Flex>
 				</Stack>
 			</Stack>
-			<Stack display={{ sm: 'none', md: 'block' }} boxSize="2xl" mb="-150px">
+			<Stack display={{ base: 'none', md: 'block' }} boxSize="2xl" mb="-150px">
 				<Image
 					src="/customer-support.avif"
 					width={800}

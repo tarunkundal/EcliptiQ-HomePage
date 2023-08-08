@@ -18,7 +18,7 @@ const Features = () => {
 			<Header />
 			<Stack
 				textAlign="center"
-				px={{ sm: '8%', md: '10%' }}
+				px={{ base: '8%', md: '10%' }}
 				pt={{ base: '25%', md: '15%' }}
 			>
 				<Heading
@@ -62,7 +62,7 @@ const Features = () => {
 				</Stack>
 				<Stack
 					textAlign="left"
-					w={{ sm: '70%', md: '30%' }}
+					w={{ base: '70%', md: '30%' }}
 					ml={{ md: '10%' }}
 					mt={{
 						base: '15%',
@@ -81,7 +81,7 @@ const Features = () => {
 				<Flex alignItems="center" mt={{ md: '-20%' }}>
 					<ChakraImage src="/features2-img.webp" alt="side img" zIndex={-2} />
 					<ChakraImage
-						w={{ sm: '200px', md: '600px' }}
+						w={{ base: '200px', md: '600px' }}
 						h={{ md: '500px' }}
 						ml={{ base: '-50%', md: '-50%' }}
 						alt=""
@@ -113,7 +113,7 @@ const Features = () => {
 					<Button
 						variant="blue"
 						size="lg"
-						w={{ sm: '80%', md: '40%' }}
+						w={{ base: '80%', md: '40%' }}
 						m="auto"
 						my={10}
 						onClick={() => router.push(Routes.REGISTER)}
