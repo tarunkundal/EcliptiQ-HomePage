@@ -13,9 +13,10 @@ import Logo from '@/components/Logo';
 const Footer = () => {
 	return (
 		<Box
+			py={4}
+			px={{ base: 4, md: 24 }}
+			w="full"
 			bgGradient="linear-gradient(45deg,blue, #FF0bef,violet,  red)"
-			px={{ base: '4%', md: '10%' }}
-			py={6}
 		>
 			<Stack color="white">
 				<Flex fontWeight="black" justifyContent="space-around">

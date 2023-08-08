@@ -7,9 +7,9 @@ import Routes from '@/Routes';
 const Comp5 = () => {
 	return (
 		<Box
-			w="90%"
+			w={{ base: '95%', md: '90%' }}
+			borderRadius={{ base: '25px', md: '50px' }}
 			mx="auto"
-			borderRadius="50px"
 			mb={10}
 			p={{ base: '10', md: '24' }}
 			bg="green1"

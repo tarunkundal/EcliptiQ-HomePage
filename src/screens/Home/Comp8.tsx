@@ -7,10 +7,8 @@ import { PiChatsCircleBold } from 'react-icons/pi';
 const Comp8 = () => {
 	return (
 		<Flex
-			w="90%"
 			mx="auto"
-			borderRadius="50px"
-			mb={10}
+			w={{ base: '95%', md: '90%' }}
 			p={{ base: '10', md: '24' }}
 			justifyContent="space-around"
 		>
