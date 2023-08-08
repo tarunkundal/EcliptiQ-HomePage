@@ -1,0 +1,73 @@
+{
+	"plugins": [
+		"react",
+		"@typescript-eslint",
+		"unused-imports",
+		"react-hooks",
+		"simple-import-sort"
+	],
+	"extends": [
+		"eslint:recommended",
+		"plugin:react/recommended",
+		"plugin:react-hooks/recommended",
+		"plugin:@typescript-eslint/recommended",
+		"plugin:prettier/recommended",
+		"prettier",
+		"next/core-web-vitals"
+	],
+	"parser": "@typescript-eslint/parser",
+	"ignorePatterns": ["next.config.js"],
+	"parserOptions": {
+		"ecmaFeatures": {
+			"jsx": true
+		},
+		"ecmaVersion": "latest",
+		"sourceType": "module",
+		"project": "./tsconfig.json"
+	},
+	"settings": {
+		"react": {
+			"version": "detect"
+		},
+		"import/parsers": {
+			"@typescript-eslint/parser": [".ts", ".tsx", ".svg"]
+		},
+		"import/resolver": {
+			"typescript": {
+				"project": "./tsconfig.json"
+			},
+			"node": {
+				"extensions": [".js", ".jsx", ".ts", ".tsx", ".svg"]
+			}
+		}
+	},
+
+	"rules": {
+		"import/no-unresolved": "error",
+		"react/jsx-curly-brace-presence": ["error"],
+		"react/react-in-jsx-scope": "off",
+		"react/prop-types": "off",
+		"unused-imports/no-unused-imports": "error",
+		"@typescript-eslint/ban-ts-comment": "off",
+		"@typescript-eslint/no-explicit-any": "off",
+		"@typescript-eslint/no-empty-function": "off",
+		"@typescript-eslint/no-non-null-assertion": "off",
+		"@typescript-eslint/switch-exhaustiveness-check": "warn",
+		"@typescript-eslint/no-empty-interface": "off",
+		"@typescript-eslint/no-unused-vars": [
+			"warn",
+			{
+				"argsIgnorePattern": "^_",
+				"ignoreRestSiblings": true
+			}
+		],
+		"no-unsafe-optional-chaining": "warn",
+		"react/no-children-prop": "off",
+		"no-constant-condition": "warn",
+		"react-hooks/rules-of-hooks": "error",
+		"import/order": "off",
+		"sort-imports": "off",
+		"simple-import-sort/imports": "error",
+		"simple-import-sort/exports": "error"
+	}
+}

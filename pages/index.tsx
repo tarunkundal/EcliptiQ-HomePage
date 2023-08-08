@@ -1,13 +1,24 @@
-import Link from 'next/link'
-import Layout from '../components/Layout'
+import Head from 'next/head';
+import React from 'react';
 
-const IndexPage = () => (
-  <Layout title="Home | Next.js + TypeScript Example">
-    <h1>Hello Next.js 👋</h1>
-    <p>
-      <Link href="/about">About</Link>
-    </p>
-  </Layout>
-)
+import Home from '@/screens/Home';
 
-export default IndexPage
+import Header from '../src/components/Header';
+
+const App = () => {
+	return (
+		<>
+			<Head>
+				<link rel="icon" href="/favicon.png" />
+				<title>EcliptiQ</title>
+				<meta
+					name="descripition"
+					content="EcliptiQ could be interpreted as a project or platform that aims to bring innovation and intelligence to a global scale"
+				/>
+			</Head>
+			<Header />
+			<Home />
+		</>
+	);
+};
+export default App;
