@@ -10,6 +10,7 @@ const Comp1 = () => {
 	return (
 		<Box
 			py={10}
+			w="full"
 			bgGradient="linear-gradient(45deg,rgb(228,248,242),rgb(240,251,248),rgb(255,250,230), rgb(248,247,254),rgb(237,250,254))"
 		>
 			<Flex
