@@ -15,6 +15,7 @@ const Comp6 = () => {
 			p={{ base: '10', md: '24' }}
 			bg="blue1"
 			justifyContent="space-around"
+			alignItems="center"
 		>
 			<Stack w={{ md: '50%' }} gap={{ base: 4, md: 8 }}>
 				<Text
@@ -35,7 +36,7 @@ const Comp6 = () => {
 					that we’ll never sell out to the highest bidder.
 				</Text>
 				<Stack display={{ base: 'block', md: 'none' }}>
-					<Image src="/task-project-com6.svg" width={500} height={500} alt="" />
+					<Image src="/task-project-com6.svg" width={400} height={500} alt="" />
 				</Stack>
 				<Text>
 					Your tasks are automatically sorted into Today, Upcoming, and custom
@@ -50,7 +51,7 @@ const Comp6 = () => {
 				</Button>
 			</Stack>
 			<Stack display={{ base: 'none', md: 'block' }}>
-				<Image src="/task-project-com6.svg" width={500} height={500} alt="" />
+				<Image src="/task-project-com6.svg" width={550} height={500} alt="" />
 			</Stack>
 		</Flex>
 	);

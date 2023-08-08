@@ -34,8 +34,13 @@ const Comp4 = () => {
 					The fastest way to get tasks out of your head.
 				</Heading>
 
-				<Box borderRadius="3xl" overflow="hidden" mx="auto">
-					<video width="600" height="515" autoPlay loop muted>
+				<Box
+					borderRadius="3xl"
+					boxSize="fit-content"
+					overflow="hidden"
+					mx="auto"
+				>
+					<video width="500" height="500" autoPlay loop muted>
 						<source src="/projects_tasks-com4-video.mp4" type="video/mp4" />
 						Your browser does not support the video tag.
 					</video>

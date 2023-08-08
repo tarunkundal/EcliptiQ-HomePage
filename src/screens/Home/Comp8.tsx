@@ -32,7 +32,7 @@ const Comp8 = () => {
 				<Stack display={{ md: 'none', base: 'block' }}>
 					<Image
 						src="/customer-support.avif"
-						width={400}
+						width={350}
 						height={50}
 						alt="image"
 					/>

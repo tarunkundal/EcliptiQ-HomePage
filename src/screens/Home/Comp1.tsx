@@ -21,7 +21,7 @@ const Comp1 = () => {
 			>
 				<Stack display={{ base: 'none', md: 'block' }}>
 					<Box borderRadius="2xl" overflow="hidden">
-						<video width="560" height="505" autoPlay loop muted>
+						<video autoPlay width="550" height="600" loop muted>
 							<source src="/header-graphic-com1-video.mp4" type="video/mp4" />
 							Your browser does not support the video tag.
 						</video>
@@ -34,7 +34,7 @@ const Comp1 = () => {
 					<Text fontWeight="bold">All your work in one place</Text>
 					<Stack display={{ base: 'block', md: 'none' }}>
 						<Box borderRadius="2xl" overflow="hidden">
-							<video width="560" height="505" autoPlay loop muted>
+							<video width="400" height="500" autoPlay loop muted>
 								<source src="/header-graphic-com1-video.mp4" type="video/mp4" />
 								Your browser does not support the video tag.
 							</video>

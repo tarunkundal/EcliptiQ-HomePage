@@ -28,12 +28,11 @@ const Comp5 = () => {
 					color="green.400"
 					display={{ base: 'block', md: 'none' }}
 					mb={8}
-					textAlign="center"
 				>
 					Focus on what`s important
 				</Text>
 				<Box borderRadius="3xl" overflow="hidden">
-					<video width="600" height="515" autoPlay loop muted>
+					<video width="550" height="500" autoPlay loop muted>
 						<source src="/com5-video.mp4" type="video/mp4" />
 						Your browser does not support the video tag.
 					</video>

@@ -20,7 +20,7 @@ const Comp3 = () => {
 				display={{ base: 'block', md: 'flex' }}
 				justifyContent="space-between"
 			>
-				<Stack w={{ base: '100%', md: '35%' }} gap={{ base: 4, md: 6 }}>
+				<Stack w={{ base: '100%', md: '50%' }} gap={{ base: 4, md: 6 }}>
 					<Text
 						fontWeight="extrabold"
 						textDecoration="underline"
@@ -47,10 +47,11 @@ const Comp3 = () => {
 				</Stack>
 				<Box
 					display={{ base: 'none', md: 'block' }}
+					boxSize="fit-content"
 					borderRadius="3xl"
 					overflow="hidden"
 				>
-					<video width="600" height="515" autoPlay loop muted>
+					<video width="450" height="500" autoPlay loop muted>
 						<source src="/projects_tasks-com4-video.mp4" type="video/mp4" />
 						Your browser does not support the video tag.
 					</video>
