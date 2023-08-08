@@ -14,56 +14,56 @@ const Comp2 = () => {
 				alignItems="center"
 			>
 				<ChakraImage
-					width={{ base: 30, md: 90 }}
+					w={90}
 					height={{ base: 5, md: 70 }}
 					m={2}
 					src="/booking_com.svg"
 					alt="booking.com"
 				/>
 				<ChakraImage
-					width={{ base: 30, md: 90 }}
+					w={90}
 					height={{ base: 5, md: 70 }}
 					src="/ibm.svg"
 					alt="ibm"
 					m={2}
 				/>
 				<ChakraImage
-					width={{ base: 30, md: 90 }}
+					w={90}
 					height={{ base: 5, md: 70 }}
 					src="/logitech.svg"
 					alt="logitech"
 					m={2}
 				/>
 				<ChakraImage
-					width={{ base: 30, md: 90 }}
+					w={90}
 					height={{ base: 5, md: 70 }}
 					src="/fortinet.svg"
 					alt="fortinet"
 					m={2}
 				/>
 				<ChakraImage
-					width={{ base: 30, md: 90 }}
+					w={90}
 					height={{ base: 5, md: 70 }}
 					src="/tibco.svg"
 					alt="tibco"
 					m={2}
 				/>
 				<ChakraImage
-					width={{ base: 30, md: 90 }}
+					w={90}
 					height={{ base: 5, md: 70 }}
 					src="/spotify.svg"
 					alt="spotify"
 					m={2}
 				/>
 				<ChakraImage
-					width={{ base: 30, md: 90 }}
+					w={90}
 					height={{ base: 5, md: 70 }}
 					src="/t-mobile.svg"
 					alt="t-mobile"
 					m={2}
 				/>
 				<ChakraImage
-					width={{ base: 30, md: 90 }}
+					w={90}
 					height={{ base: 5, md: 70 }}
 					src="/netflix.svg"
 					alt="netflix"
