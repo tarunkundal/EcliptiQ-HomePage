@@ -1,48 +1,46 @@
-# TypeScript Next.js example
+# EcliptiQ- Team Task Management Homepage 
+EcliptiQ is a comprehensive team task management homepage built using Next.js, TypeScript, and Chakra UI. This project aims to provide teams with an efficient and organized platform to manage their tasks, enhance collaboration, and boost productivity.
 
-This is a really simple project that shows the usage of Next.js with TypeScript.
+# Features
+  User-Friendly Interface: EcliptiQ offers an intuitive interface designed to simplify task management and reduce the learning curve for team members.
 
-## Deploy your own
+ Task Tracking: Keep track of tasks, assignees, due dates, and priorities all in one place.
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example) or preview live with [StackBlitz](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/with-typescript)
+ Collaboration: Foster teamwork by allowing team members to collaborate, comment, and share updates on tasks.
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-typescript&project-name=with-typescript&repository-name=with-typescript)
+ Efficient Task Creation: Create new tasks with ease, providing essential details and context to ensure clarity.
 
-## How to use it?
+ Task Filtering and Sorting: Seamlessly filter and sort tasks based on priority, status, due date, and more.
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init), [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/), or [pnpm](https://pnpm.io) to bootstrap the example:
+ Responsive Design: EcliptiQ is built with responsiveness in mind, ensuring a consistent experience across various devices.
 
-```bash
-npx create-next-app --example with-typescript with-typescript-app
-```
+# Technologies Used
+Next.js: A powerful React framework for building server-rendered applications.
 
-```bash
-yarn create next-app --example with-typescript with-typescript-app
-```
+TypeScript: Enhances code quality and provides static typing for a more robust development experience.
 
-```bash
-pnpm create next-app --example with-typescript with-typescript-app
-```
+Chakra UI: A modern component library for React that simplifies CSS styling and improves design consistency.
 
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+ESLint: Maintain code quality and consistency with the help of ESLint's static code analysis.
 
-## Notes
+# Getting Started
+Clone the repository: git clone https://github.com/tarunkundal/EcliptiQ-HomePage.git
 
-This example shows how to integrate the TypeScript type system into Next.js. Since TypeScript is supported out of the box with Next.js, all we have to do is to install TypeScript.
+Install dependencies: npm install
 
-```
-npm install --save-dev typescript
-```
+Run the development server: npm run dev
 
-To enable TypeScript's features, we install the type declarations for React and Node.
+Open your browser and navigate to http://localhost:3000
 
-```
-npm install --save-dev @types/react @types/react-dom @types/node
-```
+# Deployment
+ EcliptiQ is deployed on Vercel. You can access the live application by following this [link](https://ecliptiq.vercel.app/)
 
-When we run `next dev` the next time, Next.js will start looking for any `.ts` or `.tsx` files in our project and builds it. It even automatically creates a `tsconfig.json` file for our project with the recommended settings.
+# Contribution
+Contributions to EcliptiQ are welcome! Feel free to submit issues, feature requests, or pull requests. Please follow our contribution guidelines.
 
-Next.js has built-in TypeScript declarations, so we'll get autocompletion for Next.js' modules straight away.
 
-A `type-check` script is also added to `package.json`, which runs TypeScript's `tsc` CLI in `noEmit` mode to run type-checking separately. You can then include this, for example, in your `test` scripts.
-# EcliptiQ-HomePage
+
+
+
+
+
