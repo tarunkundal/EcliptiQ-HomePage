@@ -33,8 +33,8 @@ const Comp3 = () => {
 						Simplify work and get more done.
 					</Heading>
 					<Text>
-						Plan, track, and manage any type of work with project management
-						that flexes to your team's needs.
+						Plan, track, and manage any type of work with EcliptiQ that flexes
+						to your team's needs.
 					</Text>
 					<Text fontWeight="bold">REPLACES: Asana | Monday | Jira</Text>
 					<Button

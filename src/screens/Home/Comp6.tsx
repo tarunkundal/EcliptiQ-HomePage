@@ -26,7 +26,7 @@ const Comp6 = () => {
 					fontSize="20px"
 					color="blue.400"
 				>
-					Focus on what`s important
+					The Power of Organized Progress
 				</Text>
 				<Heading fontSize={{ base: '4xl', md: '6xl' }}>
 					A task manager you can trust for life

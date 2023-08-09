@@ -63,27 +63,26 @@ const Footer = () => {
 							© 2023 EcliptiQ | Security | Your Privacy | Terms
 						</Text>
 					</Stack>
-					<Flex>
-						<a style={{ color: 'white' }} href="https://www.linkedin.com">
-							<AiFillLinkedin size="2rem" />
-						</a>
-						<a style={{ color: 'white' }} href="https://www.instagram.com">
-							<AiFillInstagram size="2rem" />
-						</a>
-						<a style={{ color: 'white' }} href="https://www.facebook.com">
-							<AiFillFacebook size="2rem" />
-						</a>
-						<a style={{ color: 'white' }} href="https://www.twitter.com">
-							<AiFillTwitterCircle size="2rem" />
-						</a>
-					</Flex>
+					<Stack>
+						<Flex>
+							<a style={{ color: 'white' }} href="https://www.linkedin.com">
+								<AiFillLinkedin size="2rem" />
+							</a>
+							<a style={{ color: 'white' }} href="https://www.instagram.com">
+								<AiFillInstagram size="2rem" />
+							</a>
+							<a style={{ color: 'white' }} href="https://www.facebook.com">
+								<AiFillFacebook size="2rem" />
+							</a>
+							<a style={{ color: 'white' }} href="https://www.twitter.com">
+								<AiFillTwitterCircle size="2rem" />
+							</a>
+						</Flex>
+						<Text textAlign="center" fontSize="12px">
+							@Tarun Chauhan
+						</Text>
+					</Stack>
 				</Flex>
-				<Text textAlign="center" fontSize="14px">
-					Designed By :{' '}
-					<Text fontWeight="bold" as="span">
-						Tarun Chauhan
-					</Text>
-				</Text>
 			</Stack>
 		</Box>
 	);

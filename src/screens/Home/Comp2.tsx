@@ -4,7 +4,7 @@ import React from 'react';
 
 const Comp2 = () => {
 	return (
-		<Stack mx={{ base: 2, md: 14 }} gap={{ base: 10, md: 14 }} my={14} p={4}>
+		<Stack mx={{ base: 2, md: 14 }} gap={{ base: 8, md: 14 }} my={14} p={4}>
 			<Text align="center" fontWeight="bold" fontSize="14px">
 				JOIN 800,000+ HIGHLY PRODUCTIVE TEAMS
 			</Text>

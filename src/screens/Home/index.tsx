@@ -9,7 +9,7 @@ import Comp5 from './Comp5';
 import Comp6 from './Comp6';
 import Comp7 from './Comp7';
 import Comp8 from './Comp8';
-import Footer from './Footer';
+import Footer from '../../components/Footer';
 
 const Home = () => {
 	return (

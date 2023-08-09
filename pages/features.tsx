@@ -4,8 +4,8 @@ import Head from 'next/head';
 import router from 'next/router';
 import React from 'react';
 
+import Footer from '@/components/Footer';
 import Routes from '@/Routes';
-import Footer from '@/screens/Home/Footer';
 
 import Header from '../src/components/Header';
 
@@ -47,7 +47,7 @@ const Features = () => {
 					zIndex={-2}
 				/>
 				<Stack
-					w={{ base: '60%', md: '40%' }}
+					w={{ base: '70%', md: '40%' }}
 					fontSize={{ base: '22px', md: '25px' }}
 					bg="blue1"
 					m="auto"
@@ -89,7 +89,7 @@ const Features = () => {
 					/>
 				</Flex>
 				<Stack
-					w={{ base: '60%', md: '40%' }}
+					w={{ base: '70%', md: '40%' }}
 					fontSize={{ base: '22px', md: '25px' }}
 					bg="violet1"
 					m="auto"
