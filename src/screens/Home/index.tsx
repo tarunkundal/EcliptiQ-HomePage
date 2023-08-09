@@ -1,5 +1,6 @@
 import React from 'react';
 
+import Footer from '../../components/Footer';
 import Header from '../../components/Header';
 import Comp1 from './Comp1';
 import Comp2 from './Comp2';
@@ -9,7 +10,6 @@ import Comp5 from './Comp5';
 import Comp6 from './Comp6';
 import Comp7 from './Comp7';
 import Comp8 from './Comp8';
-import Footer from '../../components/Footer';
 
 const Home = () => {
 	return (
