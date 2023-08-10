@@ -76,7 +76,7 @@ const Header = () => {
 						_hover={{
 							textDecoration: 'underline',
 						}}
-						color="yellow_neon"
+						color="red"
 						display={{ base: 'block', md: 'none' }}
 						cursor="pointer"
 						onClick={() => router.push('/features')}
