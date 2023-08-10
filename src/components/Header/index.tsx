@@ -1,21 +1,11 @@
-import {
-	Box,
-	Button,
-	Flex,
-	HStack,
-	Stack,
-	useDisclosure,
-} from '@chakra-ui/react';
+import { Box, Button, Flex, HStack } from '@chakra-ui/react';
 import { useRouter } from 'next/router';
 import React, { useEffect, useState } from 'react';
-import { AiOutlineClose } from 'react-icons/ai';
-import { GiHamburgerMenu } from 'react-icons/gi';
 
 import Routes from '../../Routes';
 import Logo from '../Logo';
 
 const Header = () => {
-	const { isOpen, onOpen, onClose } = useDisclosure();
 	const router = useRouter();
 
 	const [scrollBgColor, setScrollBgColor] = useState('transparent');
@@ -54,25 +44,8 @@ const Header = () => {
 				justifyContent="space-between"
 				w={{ base: 'full', md: '' }}
 			>
-				<Button
-					display={{ md: 'none' }}
-					variant={isOpen ? 'red' : ''}
-					onClick={isOpen ? onClose : onOpen}
-				>
-					{isOpen ? (
-						<Box
-							transition="ease-in-out .7s "
-							_hover={{ transform: 'rotate(180deg)' }}
-						>
-							<AiOutlineClose />
-						</Box>
-					) : (
-						<GiHamburgerMenu />
-					)}
-				</Button>
-
 				<HStack spacing={10} alignItems="center">
-					<Logo size="2xl" />
+					<Logo size={{ base: 'lg', md: '2xl' }} />
 
 					<Box
 						as="a"
@@ -83,9 +56,9 @@ const Header = () => {
 						fontSize="14px"
 						rounded="md"
 						_hover={{
-							textDecoration: 'none',
-							bg: 'blue1',
+							bg: 'violet2',
 						}}
+						color="red"
 						display={{ base: 'none', md: 'block' }}
 						cursor="pointer"
 						onClick={() => router.push('/features')}
@@ -93,46 +66,40 @@ const Header = () => {
 						Features
 					</Box>
 				</HStack>
-				<Flex alignItems="center">
-					<Stack direction="row" spacing={6}>
-						<Button variant="blue" onClick={() => router.push(Routes.LOGIN)}>
-							Sign In
-						</Button>
-						<Button
-							display={{ base: 'none', md: 'inline-flex' }}
-							_hover={{ bg: 'blue1' }}
-							onClick={() => router.push(Routes.REGISTER)}
-						>
-							Sign Up
-						</Button>
-					</Stack>
+				<Flex alignItems="center" justifyContent="center">
+					<Box
+						mx={6}
+						as="a"
+						fontWeight="bold"
+						fontSize="14px"
+						rounded="md"
+						_hover={{
+							textDecoration: 'underline',
+						}}
+						color="yellow_neon"
+						display={{ base: 'block', md: 'none' }}
+						cursor="pointer"
+						onClick={() => router.push('/features')}
+					>
+						Features
+					</Box>
+					<Button
+						size={{ base: 'sm', md: 'md' }}
+						variant="blue"
+						onClick={() => router.push(Routes.LOGIN)}
+					>
+						Sign In
+					</Button>
+					<Button
+						display={{ base: 'none', md: 'block' }}
+						_hover={{ bg: 'blue1', color: 'blue' }}
+						onClick={() => router.push(Routes.REGISTER)}
+						ml={4}
+					>
+						Sign Up
+					</Button>
 				</Flex>
 			</Flex>
-
-			{isOpen ? (
-				<Box display={{ md: 'none' }}>
-					<Stack as="nav" spacing={6}>
-						<Box
-							as="a"
-							mt={2}
-							px={2}
-							py={1}
-							fontWeight="bold"
-							fontSize="14px"
-							rounded="md"
-							_hover={{
-								textDecoration: 'none',
-								bg: 'blue1',
-							}}
-							boxSizing="content-box"
-							cursor="pointer"
-							onClick={() => router.push('/features')}
-						>
-							Features
-						</Box>
-					</Stack>
-				</Box>
-			) : null}
 		</Box>
 	);
 };
