@@ -15,7 +15,7 @@ const Logo = (props: { size: ResponsiveValue<string> | undefined }) => {
 			onClick={() => router.push('/')}
 			cursor="pointer"
 		>
-			<Image src={logo} alt="logo" width={64} />
+			<Image src={logo} alt="logo" width={60} />
 
 			<Text fontWeight="extrabold" fontSize={props.size} mt={2}>
 				EcliptiQ
