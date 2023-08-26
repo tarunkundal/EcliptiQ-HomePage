@@ -1,6 +1,6 @@
 const Routes = {
-	LOGIN: 'http://localhost:3000/login',
-	REGISTER: 'http://localhost:3000/register',
+	LOGIN: 'https://eclipti-q.vercel.app/login',
+	REGISTER: 'https://eclipti-q.vercel.app/register',
 	FEATURE: '/features',
 };
 
