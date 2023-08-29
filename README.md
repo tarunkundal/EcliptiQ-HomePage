@@ -11,9 +11,9 @@ EcliptiQ is a comprehensive team task management homepage built using Next.js, T
 # Features
   User-Friendly Interface: EcliptiQ offers an intuitive interface designed to simplify task management and reduce the learning curve for team members.
 
- Task Tracking: Keep track of tasks, assignees, due dates, and priorities all in one place.
+ Task Tracking: Keep track of tasks, assignees, due dates,is favourite,stages, and priorities all in one place.
 
- Collaboration: Foster teamwork by allowing team members to collaborate, comment, and share updates on tasks.
+ Collaboration: Foster teamwork by allowing team members to collaborate, and share updates on tasks.
 
  Efficient Task Creation: Create new tasks with ease, providing essential details and context to ensure clarity.
 
