@@ -43,7 +43,7 @@ Open your browser and navigate to http://localhost:3000
  EcliptiQ is deployed on Vercel. You can access the live application by following this [link](https://ecliptiq.vercel.app/)
 
 # Contribution
-Contributions to EcliptiQ are welcome! Feel free to submit issues, feature requests, or pull requests. Please follow our contribution guidelines.
+Contributions to EcliptiQ are welcome! Feel free to submit issues, feature requests, or pull requests.
 
 
 
